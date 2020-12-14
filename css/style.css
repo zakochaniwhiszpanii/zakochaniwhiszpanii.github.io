@@ -8023,6 +8023,10 @@ h1, h2, h3, h4, h5,
   color: rgba(0, 0, 0, 0.8);
   font-weight: 400; }
 
+h3, h4, h5, .h3, .h4, .h5 {
+  margin-top: 1.5em;
+}
+
 .text-primary {
   color: #f9ab30 !important; }
 
