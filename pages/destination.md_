@@ -1,0 +1,9 @@
+{:title "Destination"
+ :layout :destination
+ :banner "bg_2.jpg"
+ :page-index 1
+ :navbar? false}
+
+## Write something about something
+
+wow wow wow
