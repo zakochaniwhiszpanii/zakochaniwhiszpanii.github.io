@@ -1,0 +1,51 @@
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+.title {
+    font-weight: 200;
+    font-size: 3.8rem;
+}
+
+h2 {
+    margin-top: 3rem;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.text a {
+    color: #f9ab30;
+}
+
+.heading a {
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    color: black;
+}
+
+.bg-yellow {
+    background-color: #f9ab30;
+}
+
+a.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.post .title {
+    font-weight: bold;
+    line-height: 5rem;
+}
+
+a:hover {
+  color: #f9ab30;
+}
