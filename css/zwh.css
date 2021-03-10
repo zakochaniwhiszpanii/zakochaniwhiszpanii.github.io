@@ -4,6 +4,7 @@ body {
 
 .title {
     font-weight: 200;
+    text-shadow: 2px 2px 4px black;
 }
 
 h2 {
@@ -42,4 +43,18 @@ a.navbar-brand {
 
 a:hover {
   color: #f9ab30;
+}
+
+.banner {
+    height: 75vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@media (hover:none) {
+    .banner {
+        background-size: cover;
+        background-attachment: initial;
+    }
 }
