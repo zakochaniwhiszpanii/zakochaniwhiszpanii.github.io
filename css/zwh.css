@@ -4,7 +4,6 @@ body {
 
 .title {
     font-weight: 200;
-    font-size: 3.8rem;
 }
 
 h2 {
@@ -26,9 +25,6 @@ a {
 
 .heading a {
     font-weight: 600;
-    font-size: 1.25rem;
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
     color: black;
 }
 
@@ -38,12 +34,10 @@ a {
 
 a.navbar-brand {
     font-weight: bold;
-    font-size: 1.5rem;
 }
 
 .post .title {
     font-weight: bold;
-    line-height: 5rem;
 }
 
 a:hover {
