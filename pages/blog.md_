@@ -1,9 +1,0 @@
-{:title "Blog"
- :banner "bg_1.jpg"
- :layout :blog
- :page-index 2
- :navbar? false}
-
-## Write something about something
-
-wow wow wow
