@@ -14,6 +14,14 @@
           integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
           crossorigin="anonymous">
     <link href="/css/zwh.css" rel="stylesheet"/>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BQ46WYYS0R"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-BQ46WYYS0R');
+    </script>
 </head>
 
 <body class="lh-lg">
@@ -67,6 +75,21 @@
         </div>
     </div>
 </nav>
+
+
+
+
+<div class="container-lg">
+    <div id="cookie-alert" class="m-3 alert alert-secondary alert-dismissible fade show" role="alert"
+        style="display:none">
+        Na naszej stronie wykorzystujemy cookies w celu realizacji usług Google Analytics do mierzenia ruchu. 
+        Więcej na ten temat możesz przeczytać na stronie
+         <a href="https://policies.google.com/privacy?hl=pl">policies.google.com</a>.
+        <button type="button" class="btn btn-dark" data-bs-dismiss="alert" aria-label="Close"
+            onclick="storeConsentCookie();">Rozumiem</button>
+    </div>
+</div>
+
 
 
 <div class="container mt-5">
@@ -125,6 +148,7 @@
         crossorigin="anonymous"></script>
 
 <script src="/js/lazysizes.min.js" async></script>
+<script src="/js/cookies.js" async></script>
 
 
 <script> // counter.dev tracking code
