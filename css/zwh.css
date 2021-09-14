@@ -3,9 +3,10 @@ body {
     font-size: 1.3rem;
 }
 
-.title {
+.banner {
     text-shadow: 2px 2px 4px black;
 }
+
 
 h2 {
     margin-top: 3rem;
