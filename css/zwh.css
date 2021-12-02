@@ -1,6 +1,6 @@
 body {
-    font-family: 'Poppins', Arial, sans-serif;
-    font-size: 1.3rem;
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 1.2rem;
 }
 
 .banner {
@@ -12,9 +12,9 @@ h2 {
     margin-top: 3rem;
 }
 
-h1, h2, h3 {
+/* h1, h2, h3 {
     font-weight: normal;
-}
+} */
 
 a {
     text-decoration: none;
@@ -55,6 +55,7 @@ a:hover {
 
 @media (hover:none) {
     .banner {
+        height: 50vh;
         background-size: cover;
         background-attachment: initial;
     }
