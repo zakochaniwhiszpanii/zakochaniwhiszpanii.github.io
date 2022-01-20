@@ -22,7 +22,7 @@ a {
 }
 
 .text a {
-    color: #f9ab30;
+    color: #b37a1e;
 }
 
 .heading a {
@@ -44,6 +44,7 @@ a.navbar-brand {
 
 a:hover {
   color: #f9ab30;
+  text-decoration: underline;
 }
 
 .banner {
