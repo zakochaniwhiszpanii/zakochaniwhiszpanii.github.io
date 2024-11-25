@@ -5,15 +5,20 @@ function getLanguage() {
     return fromPath;
 }
 
+function hideLink(it) {
+    if (!it.href.match('.*/search') && !it.href.match('.*/[a-z]+/blog')) {
+        console.log('hideForeignNavigation hiding', it.href);
+        it.style.display = 'none';
+    }
+}
+
 function hideForeignNavigation() {
     const lang = getLanguage();
     const links = document.querySelectorAll('.header-nav-item > a:not([href^="/' + lang + '"])');
-    links.forEach(function (it) {
-        if (!it.href.match('.*/search') && !it.href.match('.*/[a-z]+/blog')) {
-            console.log('hideForeignNavigation hiding', it.href);
-            it.style.display = 'none';
-        }
-    });
+    const mobileLinks = document.querySelectorAll('.header-menu-nav-item > a:not([href^="/' + lang + '"])');
+
+    links.forEach(hideLink);
+    mobileLinks.forEach(hideLink);
 }
 
 function translateComments() {
