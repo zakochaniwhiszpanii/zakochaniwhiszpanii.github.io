@@ -1,8 +1,13 @@
 function getLanguage() {
     const parts = window.location.pathname.split("/", 3);
-    const fromPath = parts.length > 1 ? parts[1] : 'pl';
-    //return localStorage.getItem('language') || 'pl';
-    return fromPath;
+    const fromPath = parts.length > 1 ? parts[1] : '';
+    if (fromPath.match('[a-z][a-z]')) {
+        console.log('detected lang from path', fromPath);
+        return fromPath;
+    } else {
+        console.log('could not get lang from path', window.location.pathname);
+        return 'pl';
+    }
 }
 
 function hideLink(it) {
