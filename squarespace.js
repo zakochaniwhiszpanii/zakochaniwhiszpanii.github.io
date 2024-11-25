@@ -1,5 +1,8 @@
 function getLanguage() {
-    return localStorage.getItem('language') || 'pl';
+    const parts = window.location.pathname.split("/", 3);
+    const fromPath = parts.length > 1 ? parts[1] : 'pl';
+    //return localStorage.getItem('language') || 'pl';
+    return fromPath;
 }
 
 function hideForeignNavigation() {
