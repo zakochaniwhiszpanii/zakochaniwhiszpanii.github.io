@@ -26,6 +26,7 @@ function translateComments() {
     });
 }
 
+hideForeignNavigation();
 
 document.addEventListener('readystatechange', function () {
     hideForeignNavigation();
