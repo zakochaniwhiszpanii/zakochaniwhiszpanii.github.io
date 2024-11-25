@@ -6,7 +6,7 @@ function hideForeignNavigation() {
     const lang = getLanguage();
     const links = document.querySelectorAll('.header-nav-item > a:not([href^="/' + lang + '"])');
     links.forEach(function (it) {
-        if (!it.href.match('.*/search/.*')) {
+        if (!it.href.match('.*/search')) {
             console.log('hideForeignNavigation hiding', it.href);
             it.style.display = 'none';
         }
